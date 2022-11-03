@@ -1,0 +1,683 @@
+.logo_style
+{
+
+    position: absolute;
+    width: 97px;
+    height: 44.92px;
+    left: 47vw;
+    top: 1vh;
+    display: block;
+    
+}
+.nav_style
+{
+    
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    display: block;
+
+/* white */
+    background: #FFFFFF;
+
+/* temp 2 */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.form_style
+{
+    display: block;
+    margin-top: 20vh;
+    margin-left: 18vw;
+
+
+
+}
+
+.head_style
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.3745px;
+    line-height: 24px;
+    padding: 0.2%;
+/* identical to box height */
+
+/* 3/Dark */
+    color: #455A64;
+}
+
+  
+  .form-check label {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2996px;
+    line-height: 19px;
+    padding: 0.2%;
+
+    color: #455A64;
+    
+  }
+
+  .form-check input[type=radio]
+  {
+    accent-color: #01818C;
+  }
+  
+  .form-check input[type=radio]:checked + label {
+    color: #01818C;
+  }
+
+  .box 
+  {
+
+    box-sizing: border-box;
+    width: 60vw;
+    height: 42.79px;
+    border: 1.01873px solid #C6C6C6;
+    border-radius: 9.16854px;
+    background-color: #FFFFFF;
+    padding: 0.5%;
+    padding-left: 2%;
+    
+
+  }
+  
+
+  option{
+    color: #455A64;
+
+  }
+
+
+.dropdown{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2996px;
+    line-height: 19px;
+    color: #01818C; 
+
+    
+}
+
+input[type='checkbox']:checked + label
+{
+
+    color: #01818C;
+    accent-color: #01818C;
+}
+
+.button
+{
+    
+
+width: 10vw;
+height: 51.6px;
+
+background: #01818C;
+box-shadow: 0px 2.03745px 3.05618px rgba(0, 0, 0, 0.15);
+border-radius: 4.07491px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16.2996px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+
+ .myButton{
+    
+    margin-left: 26vw;
+    
+}
+
+.buttons
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    
+
+}
+
+.dd_button{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: x-large;
+line-height: 24px;
+
+
+}
+
+.button_box
+{
+
+width: 50vw;
+height: 8vh;
+
+background: #F4FBFF;
+border-radius: 6px;
+
+
+
+margin-left: 25%;
+margin-top: 2%;
+
+padding-top: 1%;
+
+color: #455A64;
+border-color: transparent;
+
+
+
+
+}
+
+.button_box:hover{
+    cursor: pointer;
+    
+}
+
+.dd_button:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #455A64;
+}
+
+#arrow1, #arrow2, #arrow3{
+   
+border: solid #32959D;
+border-width: 0 3px 3px 0;
+float: right;
+padding: 1%;
+margin-right: 4%;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+
+}
+
+#panel1, #panel2, #panel3
+{
+    display: block;
+    background: #F7FBFD;
+    left: 0;   
+    height: 55vh;
+    margin-top: 2%; 
+    display: none;
+    padding: 2%;
+    padding-left: 12%;
+    
+
+
+}
+
+span{
+    float: left;
+    
+    margin-left: 6%;
+}
+
+
+.border-box
+{
+    box-sizing: border-box;
+    
+    width: 18vw;
+    
+    
+    height: 41vh;
+    
+    border: 2px solid #2B7397;
+    border-radius: 10px;
+    
+}
+
+
+#panel1 p{
+    text-align: center;
+    width: 18vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    line-height: 24px;
+
+/* identical to box height */
+text-align: center;
+
+/* 3/Dark */
+color: #455A64;
+}
+
+#panel1 h5{
+    color: #3B3019;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: large;
+line-height: 25px;
+padding: 3%;
+padding-top: 7%;
+}
+
+
+#panel1 h6, h7{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: medium;
+    line-height: 25px;
+    text-align: center;
+    color: #455A64;
+    padding: 6%;
+
+    
+}
+
+#panel1 h4{
+    padding: 0%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: x-large;
+line-height: 25px;
+
+/* identical to box height, or 125% */
+text-align: center;
+
+
+padding-bottom: 8%;
+}
+
+#price1{
+    color: #2B7397;
+    
+}
+
+.pan-2 div
+{
+    border-color: #32959D;
+}
+.pan-2 button{
+    background-color: #32959D;
+}
+.pan-2 h4{
+    color: #32959D;
+}
+
+
+.pan-3 div
+{
+    border-color: #9C7777;
+}
+.pan-3 button{
+    background-color: #9C7777;
+}
+.pan-3 h4{
+    color: #9C7777;
+
+}
+
+
+.box-button
+{
+    width: 17.91vw;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #2B7397;
+    height: 6.5vh;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #FFFFFF;
+    
+}
+
+.carousel{
+    width: 100%;
+    background-color: red;
+    margin-top: 10vh;
+    height: 60vh;
+    padding: 7%;
+    padding-left: 25%;
+    
+}
+
+.carousel-sub
+{
+    background-color:yellow;
+    width: 50vw;
+    height: 30vh;
+    text-align: center;
+}
+
+
+ /* Slideshow container */
+ .slideshow-container {
+
+    position: relative;
+    background: #EBF7FC;
+    margin-top: 8%;
+  }
+
+  .content
+  {
+    background-color: white;
+    width: 40vw;
+    height: 25vh;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: small;
+
+padding: 3%;
+
+/* or 140% */
+text-align: justify;
+
+/* 3/Dark */
+color: #455A64;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 25%;
+    
+
+  }
+  
+  /* Next & previous buttons */
+
+  
+  /* Position the "next button" to the right */
+  .next , .prev{
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    color: white;
+    background-color: #043953;
+    border-radius: 100%;
+    width: 2vw;
+    height: 2vw;
+    top: 45%;
+    font-weight: bold;
+    font-size:large ;
+    
+  }
+.prev{
+    right: 75%;
+}
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 0.8vw;
+    width: 0.8vw;
+    margin: 0 2px;
+    background: rgba(91, 96, 124, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background: #043953;  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: large;
+    line-height: 28px;
+
+/* or 127% */
+text-align: center;
+
+/* Dark 2 */
+color: #043953;
+} 
+
+.left-quote, .right-quote
+{
+    font-size: 300% ;
+    position: absolute;
+    top: 22%;
+    left: 31%;
+    color: #6b6f709d;
+}
+
+.right-quote
+{
+    left: 65%;
+    top: 55%;
+}
+
+.slider
+{
+    /* Auto layout */
+
+/* Dark 2 */
+background: #043953;
+box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+color: #FFFFFF;
+font-family: 'Roboto';
+    font-style: normal;
+    font-size: medium;
+    padding: 1%;
+    padding-top:0.8% ;
+    margin: 1%;
+}
+
+.foot{
+    height: 25vh;
+    background-color: #043953;
+    padding: 5%;
+}
+
+.foot-img
+{
+    width: 97px;
+    height: 44.92px;
+}   
+
+
+@media screen and  (max-width: 768px)
+{
+    .logo_style
+    {
+        left: 38vw;
+    }
+
+    .form_style{
+        margin-top: 15vh;
+    }
+
+    .button{
+        width: 40vw;
+    }
+    .myButton{
+        margin-left: 11vw;
+    }
+    .dd_button{
+        font-size: small;
+    }
+    .button_box
+    {
+
+        width: 70vw;
+        padding-top: 4%;
+        margin-left: 15%;
+    }
+    #arrow1, #arrow2, #arrow3{
+        margin-top: 2%;
+        margin-right: 8%;
+    }
+    span{
+        clear: both;
+        display: block;
+        margin-bottom: 2%;
+        
+        
+    }
+    .border-box{
+        width: 70vw;
+        margin-left: 1%;
+        float: left;
+        height: 31vh
+    }
+    .box-button{
+        width: 69.9vw;
+
+    }
+
+    .line{
+        height: 12vh;
+        background-color: #01818C;
+        width: 0.2vw;
+        display: inline-block;
+       
+       
+        position: absolute;
+    }
+
+    .line1{
+        height: 12vh;
+        background-color: #01818C;
+        width: 0.2vw;
+        display: inline-block;
+       top: 11%;
+       left: 52%;
+       
+        position: absolute;
+
+    }
+
+    #panel1{
+        display: block;
+        height: 110vh;
+    }
+    #panel1 p{
+        display: none;
+        
+    }
+    #panel1 h6{
+        font-size: small;
+        width: 32vw;
+        display: inline;
+        float: left;
+        padding: 0%;
+        content: "replcadw";
+    }
+
+
+    .slideshow-container{
+        clear: both;
+    }
+
+
+    #panel1, #panel2, #panel3{
+        position: relative;
+        
+        
+    }
+
+    .pan-2, .pan-3{
+        margin-top: 10%;
+    }
+
+    .slideshow-container{
+        height: 57vh;
+        padding: 5%;
+    }
+
+    .content{
+        width: 70vw;
+        height: 40vh;
+        border-radius: 2%;
+        padding: 7%;
+        
+    }
+    .mySlides{
+        margin-left: 5%;
+    }
+
+    .prev, .next{
+        width: 5vh;
+        height: 5vh;
+        border-radius: 0%;
+        background-color: #036696;
+        border-radius: 10%;
+        padding-top: 1%;
+        
+    }
+    .prev{
+        left: 8%;
+    }
+    .next{
+        left: 81%;
+    }
+
+    .dot{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .active, .dot:hover {
+        background: #036696;  }
+
+    .left-quote{
+        top: 10%;
+        left: 16%;
+    }
+
+    .right-quote{
+        top: 65%;
+    }
+    .slider{
+        display: none;
+    }
+
+    .foot{
+        padding: 15%;
+    }
+}
