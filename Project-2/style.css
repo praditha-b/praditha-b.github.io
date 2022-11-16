@@ -1,0 +1,64 @@
+body{
+        
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+}
+
+.head_style
+{
+    color: #2B7397;
+    
+}
+.text_style
+{
+    color: #455A64;
+    justify-content: center;
+    width: 80%;
+}
+.btn_style
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1%;
+background: #01818C;
+border-radius: 12%;
+}
+
+.progress1
+{
+    
+     background-repeat: no-repeat;
+     text-align: center;
+     background-image: url('./images/G1.png');
+     background-size: cover;
+     
+  
+}
+
+
+.p-contents{
+    height: 18vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 3.5% ;
+    padding-left: ;
+
+}
+.p-img
+{
+    width: 60%;
+}
+.p-inner
+{
+    font-size: medium;
+    position: absolute;
+    font-weight: bold;
+    top: 77vh;
+    left: 20.5vw;
+    color: #ffffff;
+}
