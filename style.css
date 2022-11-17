@@ -343,10 +343,11 @@ border-radius: 12%;
         justify-content: center;
 
     }
-    #art-1
+    #art-2
     {
         width: 70vw;
         padding-bottom: 5%;
+        margin-left: 0%;
     }
     .lt-sec
     {
